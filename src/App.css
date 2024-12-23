@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+.country{
+  border: 2px solid red ;
+  padding:  15px;
+  margin: 20px;
+  border-radius: 15px;
+}
+.country-container{
+  display:  grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+};
+.visited{
+  background-color: blue;
+}
+/* .non-visited{
+  background-color: ;
+} */
+ .flag-container{
+   width: 50px;
+ }
